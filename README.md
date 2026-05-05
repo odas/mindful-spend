@@ -1,14 +1,13 @@
 # mindful-spend
+**Mindful expense tracking for India's fragmented payment reality.**
+
+---
 india-ocr-expense-tracker, Python · Streamlit · Gemini Vision API · pandas · Plotly · google-genai SDK
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red)
 ![Gemini Vision](https://img.shields.io/badge/Gemini-Vision%20API-orange)
 ![pandas](https://img.shields.io/badge/pandas-2.x-green)
-
-
-**Mindful expense tracking for India's fragmented payment reality.**
-
 ---
 
 ## The problem with expense tracking in India
