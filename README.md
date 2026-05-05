@@ -30,7 +30,7 @@ None of them tell you what you actually bought.
 
 Most tracking apps want you to stop thinking about your money. They automate everything and hand you a pie chart at the end of the month.
 
-ReceiptIQ takes the opposite view: **the act of reviewing what you spent is the point.**
+mindful-spend takes the opposite view: **the act of reviewing what you spent is the point.**
 
 When you upload a screenshot and confirm each line item, you're making a deliberate choice to engage with your spending. That ₹3,200 midnight air fryer from Zepto isn't just a data point — it's a decision you're now conscious of. The mild friction is intentional.
 
@@ -38,7 +38,7 @@ The LLM handles the OCR grunt work so you're not fighting with a spreadsheet. Yo
 
 ---
 
-## What ReceiptIQ actually does
+## What mindful-spend actually does
 
 Upload a payment screenshot. Gemini Vision reads it and extracts line items with amounts, quantities, and platform context — pre-filling an editable form. You review, correct, categorise, and save. Your data lives in a local CSV, clean and ready for analysis.
 
@@ -46,13 +46,13 @@ Upload a payment screenshot. Gemini Vision reads it and extracts line items with
 
 **For restaurant orders:** one row per order — because `Chicken Biryani, Coke, Raita` from Zomato is one eating-out event, not three separate data points.
 
-This granularity is what makes ReceiptIQ useful for tracking niches that actually matter to you.
+This granularity is what makes mindful-spend useful for tracking niches that actually matter to you.
 
 ---
 
 ## Custom categories: useful data, not guilt data
 
-Most apps give you fixed categories you cannot change. ReceiptIQ is built around a taxonomy you own.
+Most apps give you fixed categories you cannot change. mindful-spend is built around a taxonomy you own.
 
 The default setup has 8 categories with sub-categories:
 
@@ -75,7 +75,7 @@ The `notes` column takes niche tracking further. Add brand, unit weight, unit pr
 
 ## Privacy: honest trade-offs
 
-ReceiptIQ doesn't read your SMS. It doesn't link your bank account. It doesn't run in the background. You choose what to upload and when.
+mindful-spend doesn't read your SMS. It doesn't link your bank account. It doesn't run in the background. You choose what to upload and when.
 
 The caveat: screenshots you upload are processed by Google's Gemini API. Google sees your line items and spending patterns — arguably more structured information than an SMS scraper collects, because you are sending itemised data. You are trading blanket background access for selective, intentional sharing.
 
@@ -109,8 +109,8 @@ For most users this is a better deal. For privacy absolutists, it isn't — the 
 ## Getting started
 
 ```bash
-git clone https://github.com/yourusername/receiptiq
-cd receiptiq
+git clone https://github.com/yourusername/mindful-spend
+cd mindful-spend
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
